@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-scraper"
+version = "0.1.0"
+description = ""
+authors = ["ahmad-swedani <swedani390@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4 = "^4.9.1"
+requests = "^2.24.0"
+colorama = "^0.4.3"
+termcolor = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
